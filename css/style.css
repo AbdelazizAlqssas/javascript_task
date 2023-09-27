@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+
+}
+.container-fluid {
+    width: 80%;
+    float: left;
+}
+.show{
+    float: left;
+}
+.text{
+    color: yellowgreen;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 50px ;
+}
+.totalprice{
+    display: none;
+    padding-top: 50px;
+    padding-left: 200px ;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn{
+    display: none;
+    float: left;
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
